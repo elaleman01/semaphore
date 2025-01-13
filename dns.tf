@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    fortios = {
+      source  = "hashicorp/fortios"
+      version = "~> 1.13.1"
+    }
+  }
+}
 # Configure the FortiOS Provider
 provider "fortios" {
 hostname = "192.168.203.1"
