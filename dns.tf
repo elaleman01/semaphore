@@ -5,10 +5,7 @@ terraform {
     }
   }
 }
-variable "api_token" {
-  type        = string
-  sensitive   = true
-}
+
 # Configure the FortiOS Provider
 provider "fortios" {
 hostname = "192.168.203.1"
