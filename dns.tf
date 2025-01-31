@@ -8,8 +8,8 @@ terraform {
 
 # Configure the FortiOS Provider
 provider "fortios" {
-hostname = "192.168.203.1"
-token = $api_token
+hostname = $hostna
+token = "r5bm6wbhw9kc4dzpGkz8xdcbb453hk"
 insecure = "true"
 }
 resource "fortios_system_setting_dns" "dns1" {
