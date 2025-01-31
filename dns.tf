@@ -8,7 +8,7 @@ terraform {
 
 # Configure the FortiOS Provider
 provider "fortios" {
-hostname = {hostna}
+hostname = var.hostna
 token = "r5bm6wbhw9kc4dzpGkz8xdcbb453hk"
 insecure = "true"
 }
