@@ -7,7 +7,7 @@ terraform {
 }
 
 variable "api_token" {
-  type        = string
+  type = string
 }
 
 # Configure the FortiOS Provider
