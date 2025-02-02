@@ -6,6 +6,10 @@ terraform {
   }
 }
 
+variable "host" {
+  type      = string
+  sensitive = true
+}
 
 # Configure the FortiOS Provider
 provider "fortios" {
