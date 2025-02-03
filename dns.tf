@@ -13,7 +13,7 @@ variable "host" {
 
 # Configure the FortiOS Provider
 provider "fortios" {
-hostname = var.TF_VAR_host
+hostname = "${host}"
 token = "r5bm6wbhw9kc4dzpGkz8xdcbb453hk"
 insecure = "true"
 }
