@@ -6,7 +6,7 @@ terraform {
   }
 }
 
-variable "TF_VAR_host" {
+variable "host" {
   type      = string
   sensitive = true
 }
