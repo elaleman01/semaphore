@@ -6,14 +6,14 @@ terraform {
   }
 }
 
-variable "TF_VAR_host" {
+variable "host" {
   type      = string
   sensitive = true
 }
 
 # Configure the FortiOS Provider
 provider "fortios" {
-hostname = TF_VAR_host
+hostname = var.host
 token = "r5bm6wbhw9kc4dzpGkz8xdcbb453hk"
 insecure = "true"
 }
