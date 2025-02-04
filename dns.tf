@@ -18,6 +18,6 @@ token = "r5bm6wbhw9kc4dzpGkz8xdcbb453hk"
 insecure = "true"
 }
 resource "fortios_system_setting_dns" "dns1" {
-primary = "4.2.2.1"
-secondary = "8.8.8.8"
+primary = "8.8.8.8"
+secondary = "4.2.2.2"
 }
